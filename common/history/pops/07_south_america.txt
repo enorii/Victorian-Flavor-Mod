@@ -891,7 +891,7 @@ POPS = {
 				size = 500
 			}
 		}
-		region_state:MSS = {
+		region_state:PRG = {
 			create_pop = {
 				culture = platinean
 				size = 25365
