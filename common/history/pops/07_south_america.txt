@@ -5,30 +5,58 @@ POPS = {
 		region_state:ECU = {
 			create_pop = {
 				culture = north_andean
-				size = 332100
+				size = 315495
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 72600
+				size = 68970
 			}
 			create_pop = {
 				culture = quechua
-				size = 171039
+				size = 162487
 			}
 			create_pop = {
 				culture = quechua
 				religion = camaquen
-				size = 256558
+				size = 243730
 			}
 			create_pop = {
 				culture = amazonian
-				size = 12000
+				size = 600
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
-				size = 84429
+				size = 80207
 			}		
+		}
+		region_state:PEU = {    # There are no sources, just an estimate
+			create_pop = {
+				culture = nort_andean
+				size = 16605
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 3630
+			}
+			create_pop = {
+				culture = quechua
+				size = 8552
+			}
+			create_pop = {
+				culture = quechua
+				religion = camaquen
+				size = 12827
+			}
+			create_pop = {
+				culture = amazonian
+				size = 11400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 4221
+			}
 		}
 	}
 	s:STATE_GUAYANA = {
