@@ -541,7 +541,7 @@ PAR = {
 }
 
 PRA = { #Cabanos
-	color = { 128  202  129 }
+	color = { 117 32 36 }
 	
 	country_type = recognized
 
