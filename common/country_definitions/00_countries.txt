@@ -541,13 +541,13 @@ PAR = {
 }
 
 PRA = { #Cabanos
-	color = { 128  202  129 }
+	color = { 1 71 56 }
 	
 	country_type = recognized
 
 	tier = principality
 	
-	cultures = { afro_brazilian }
+	cultures = { brazilian afro_brazilian amazonian }
 	religion = catholic
 	capital = STATE_PARA
 }
