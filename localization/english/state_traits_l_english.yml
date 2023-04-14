@@ -152,3 +152,8 @@
  state_trait_seto_inland_sea:0 "Seto Inland Sea"
  state_trait_valparaiso_bay:0 "Valparaiso Bay"
  state_trait_magellan_strait:0 "Strait of Magellan"
+ state_trait_buenos_aires_port:0 "Buenos Aires Port"
+ state_trait_montevideo_bay:0 "Montevideo Bay"
+ state_trait_maracaibo_lake:0 "Maracaibo Bay"
+ state_trait_callao_bay:0 "Callao Bay"
+ state_trait_guanabara_bay:0 "Guanabara Bay"
