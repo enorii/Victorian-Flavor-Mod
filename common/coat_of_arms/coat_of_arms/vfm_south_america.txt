@@ -13,5 +13,12 @@ PBC = {	#Peru-Bolivia Confederation
 PRA = {	#Cabanos
 
 	pattern = "pattern_solid.tga"
-	color1 = "crimson"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "green_dark"
+		color2 = "red"
+	}
+}	
 
