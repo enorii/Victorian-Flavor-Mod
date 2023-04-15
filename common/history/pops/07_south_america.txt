@@ -1166,7 +1166,7 @@ POPS = {
 		region_state:BOL = {
 			create_pop = {
 				culture = amazonian
-				size = 14000
+				size = 25000
 			}
 			create_pop = {
 				culture = brazilian
@@ -1178,6 +1178,10 @@ POPS = {
 			}
 		}
 		region_state:PRG = {
+			create_pop = {
+				culture = amazonian
+				size = 17000
+			}
 			create_pop = {
 				culture = guarani
 				size = 38000
