@@ -2644,18 +2644,22 @@ STATES = {
 	}
 	s:STATE_LOS_RIOS = {
 		create_state = {
+			country = c:PAT
+			owned_provinces = { x1A5ED2 xF68D31 xF2263F x8848C6 xF0CA34 x90C050 x90C0D0 x02C052 x49F9FC xCFB481 x142AEF x83D701 x3D3ED8 }
+		}
+		create_state = {
 			country = c:CHL
-			owned_provinces = { xD78C29 x29AFD4 xF63FA0 x10C050 x304688 xAAA21B x24D8BD x427820 xDAE7CA x904050 xF68D31 x1A5ED2 x90C0D0 x49F9FC x8848C6 xF2263F x02C052 x3D3ED8 xF0CA34 x9DA2FB xE70539 xA316F5 xB72711 x90C050 xE855B1 x31F03F x142AEF xCFB481 x42A6B5 x9040D0 x83D701 }
+			owned_provinces = { xD78C29 x29AFD4 xF63FA0 x10C050 x304688 xAAA21B x24D8BD x427820 xDAE7CA x904050 x9DA2FB xE70539 xA316F5 xB72711 xE855B1 x31F03F x9040D0 x42A6B5 }
 		}
 		
 		add_homeland = south_andean
 		add_homeland = patagonian
+		add_claim = c:CHL
 	}
 	s:STATE_ARAUCANIA = {
 		create_state = {
 			country = c:CHL
 			owned_provinces = { x553B3F x521B0A x592AB4 x9EF738 x4A805F x144683 xEFB409 x45155F xB79F3F xC42462 }
-			state_type = unincorporated
 		}
 		create_state = {
 			country = c:THL
@@ -8212,13 +8216,14 @@ add_claim = c:BPR
 	}
 	s:STATE_ANTOFAGASTA = {
 		create_state = {
-			country = c:BOL
+			country = c:ATM
 			owned_provinces = { x291C71 xEE0067 x7984DF x8BA717 xF5E20E x20E574 x40D35C x2000F0 xCC472E x8F918A xF39FDA x8238EF x82A274 xCAECEF x3FDC05 x1B2EC2 x6B33D0 x208070 x2DF128 xE96CF4 x4DCF72 xDE43F7 xCE7F3B x71C02C x694D06 }
 		}
 		
 		add_homeland = south_andean
 		add_homeland = aimara		
 		add_claim = c:CHL
+		add_claim = c:BOL
 	}
 	s:STATE_GRODNO = {
 		create_state = {

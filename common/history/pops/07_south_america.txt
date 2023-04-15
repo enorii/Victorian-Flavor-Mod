@@ -359,7 +359,7 @@ POPS = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
-		region_state:BOL = {
+		region_state:ATM = {
 			create_pop = {
 				culture = south_andean
 				size = 43996
@@ -1060,6 +1060,16 @@ POPS = {
 		}
 	}
 	s:STATE_LOS_RIOS = {
+		region_state:PAT = {
+			create_pop = {
+				culture = south_andean
+				size = 500
+			}
+			create_pop = {     # Sources say that there were over 100k mapuche
+				culture = patagonian
+				size = 108000
+			}
+		}
 		region_state:CHL = {
 			create_pop = {
 				culture = south_andean
