@@ -2098,7 +2098,7 @@ CHL = {
 	
 	tier = kingdom
 	
-	cultures = { south_andean }
+	cultures = { chilean }
 	capital = STATE_SANTIAGO
 }
 

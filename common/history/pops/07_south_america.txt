@@ -361,10 +361,6 @@ POPS = {
 	s:STATE_ANTOFAGASTA = {
 		region_state:ATM = {
 			create_pop = {
-				culture = south_andean
-				size = 43996
-			}
-			create_pop = {
 				culture = aimara
 				size = 37236
 			}
@@ -1050,7 +1046,7 @@ POPS = {
 	s:STATE_SANTIAGO = {
 		region_state:CHL = {
 			create_pop = {
-				culture = south_andean
+				culture = chilean
 				size = 680154
 			}
 			create_pop = {
@@ -1072,7 +1068,7 @@ POPS = {
 		}
 		region_state:CHL = {
 			create_pop = {
-				culture = south_andean
+				culture = chilean
 				size = 212775
 			}
 			create_pop = {
@@ -1084,7 +1080,7 @@ POPS = {
 	s:STATE_ARAUCANIA = {
 		region_state:CHL = {
 			create_pop = {
-				culture = south_andean
+				culture = chilean
 				size = 66479
 			}
 			create_pop = {
