@@ -1486,7 +1486,7 @@ POPS = {
 		}
 	}
 	s:STATE_PARA = {
-		region_state:PRA = { #temporal numbers
+		region_state:BRZ = { #temporal numbers
 			create_pop = {
 				culture = amazonian
 				size = 5000
