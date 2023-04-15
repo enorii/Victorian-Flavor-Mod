@@ -257,3 +257,14 @@ ATM = {
 	cultures = { aimara }
 	capital = STATE_ANTOFAGASTA
 }
+
+CMB = {   #Colombeia (or Hispanic America)
+	color = { 218  143  255 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { south_andean north_andean chilean platinean central_american mexican }	
+	capital = STATE_PANAMA
+}

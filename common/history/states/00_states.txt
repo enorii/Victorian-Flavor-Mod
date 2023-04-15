@@ -2652,7 +2652,7 @@ STATES = {
 			owned_provinces = { xD78C29 x29AFD4 xF63FA0 x10C050 x304688 xAAA21B x24D8BD x427820 xDAE7CA x904050 x9DA2FB xE70539 xA316F5 xB72711 xE855B1 x31F03F x9040D0 x42A6B5 }
 		}
 		
-		add_homeland = south_andean
+		add_homeland = chilean
 		add_homeland = patagonian
 		add_claim = c:CHL
 	}

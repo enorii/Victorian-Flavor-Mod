@@ -22,3 +22,13 @@ PRA = {	#Cabanos
 	}
 }	
 
+CMB = { # Colombeia/hispanic america
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}		
+}
