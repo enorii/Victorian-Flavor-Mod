@@ -277,5 +277,5 @@ KGG = {
 	tier = principality
 	
 	cultures = { kaingang }
-	capital = STATE_CORRIENTES
+	capital = STATE_PARANA
 }
