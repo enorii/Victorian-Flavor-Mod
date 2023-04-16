@@ -1,4 +1,4 @@
-﻿GBR = {
+GBR = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.75	
@@ -611,7 +611,7 @@ CAU = {
 	}
 }
 
-CMB = {
+CMB = {    #Colombeia/Hispanic America
 	states = {
 		STATE_BOLIVAR
 		STATE_MIRANDA
