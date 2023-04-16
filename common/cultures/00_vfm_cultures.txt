@@ -967,3 +967,91 @@ chilean={
 	}
 	graphics = generic
 }
+
+kaingang = {
+	color = { 127 28 45 }
+	religion = animist
+	traits = { indigenous_american_heritage south_american_group }
+	male_common_first_names={
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum
+	}
+    female_common_first_names = {
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum
+	}
+	common_last_names = {
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum 
+	}
+	noble_last_names = {
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum 
+	}	
+	male_regal_first_names = {
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum 
+	}
+	female_regal_first_names = {
+	    Kretã
+	    Kretã
+        Vãngri
+        Xerekó
+        Arandu
+        Iarandu
+        Verá
+        Krenak
+        Terena
+        Fulniô
+        Atikum 
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}

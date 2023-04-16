@@ -268,3 +268,14 @@ CMB = {   #Colombeia (or Hispanic America)
 	cultures = { south_andean north_andean chilean platinean central_american mexican }	
 	capital = STATE_PANAMA
 }
+
+KGG = {
+	color = { 127 28 45 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { kaingang }
+	capital = STATE_CORRIENTES
+}
