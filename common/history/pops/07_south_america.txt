@@ -1507,7 +1507,7 @@ POPS = {
 				culture = amazonian
 				size = 5000
 			}
-
+		}
 		region_state:PRA = {
 			create_pop = {
 				culture = brazilian
