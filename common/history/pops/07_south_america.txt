@@ -385,12 +385,6 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:GNI = {   #estimate
-			create_pop = {
-				culture = guarani
-				size = 30000
-			}
-        }
 		region_state:BOL = {
 			create_pop = {
 				culture = south_andean
@@ -411,7 +405,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 12000
+				size = 32000
 			}
 		}
 	}
@@ -655,16 +649,7 @@ POPS = {
 		}
 	}
 	s:STATE_JUJUY = {
-		region_state:GNI = {   #estimate
-			create_pop = {
-				culture = guarani
-				size = 20000
-			}
-			create_pop = {
-				culture = platinean
-				size = 200
-			}
-		}
+		region_state:BOL = {
 			create_pop = {
 				culture = south_andean
 				size = 4000
@@ -715,16 +700,6 @@ POPS = {
 		}
 	}
 	s:STATE_ALTO_PARAGUAY = {
-		region_state:PRG = {    #estimate
-			create_pop = {
-				culture = guarani
-				size = 1000
-			}
-			create_pop = {
-				culture = platinean
-				size = 200
-			}
-		}
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
@@ -839,6 +814,12 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAMPA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 8100
+			}
+		}
 		region_state:CDA = {
 			create_pop = {
 				culture = platinean
@@ -855,7 +836,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 8606
+				size = 506
 			}
 		}
 		region_state:SLS = {
@@ -879,6 +860,12 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_FE = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 2500
+			}
+		}
 		region_state:SFE = {
 			create_pop = {
 				culture = platinean
