@@ -2561,6 +2561,10 @@ STATES = {
 		add_homeland = guarani
 	}
 	s:STATE_TUCUMAN = {
+		create_state = {
+			country = c:ATM
+			owned_provinces = { x274804 xCCD312  }
+		}
 
 		create_state = {
 			country = c:TUC
@@ -2569,7 +2573,7 @@ STATES = {
 
 		create_state = {
 			country = c:CMA
-			owned_provinces = { x6AF7F3 x59952D x33099A xDE7D37 xD0C0D0 x8654E1 x146973 xA9393F x34BCCC xEFB9CB x23D433 x1DAB0D xE44569 xCCD312 x31DC15 xF72706 x09084A xAF104E x274804 x21CD86 xF6FCCF x8B1824 }
+			owned_provinces = { x6AF7F3 x59952D x33099A xDE7D37 xD0C0D0 x8654E1 x146973 xA9393F x34BCCC xEFB9CB x23D433 x1DAB0D xE44569 x31DC15 xF72706 x09084A xAF104E x21CD86 xF6FCCF x8B1824 }
 		}
 
 		create_state = {
@@ -2603,6 +2607,11 @@ STATES = {
 	}
 	s:STATE_JUJUY = {
 		create_state = {
+			country = c:ATM
+			owned_provinces = { x0D83A7 xD2B642 xAB88AD x45BE94 x40F4EB x2F5C46  }
+		}
+
+		create_state = {
 			country = c:GNI
 			owned_provinces = { xD719A6 x92E924 xEAB107 x8C37BE x256EF2 xC11533 x8D1ED0 xE6ADAE xC3F7F6 xB01D65 x3DEF82 xC9249D x369CE3 x1FD39C x3B871C x9319AA x28C317 xAB85CC }
 		}
@@ -2619,7 +2628,7 @@ STATES = {
 
 		create_state = {
 			country = c:SLT
-			owned_provinces = { xAB66CC x0D83A7 xD2B642 x45BE94 x5F3E39 xAB88AD x35DA48 x40F4EB x2080F0 x2F5C46 x5CCB77 xC0183E x702282 x829F7D xE6D25C x204070 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5 }
+			owned_provinces = { xAB66CC x5F3E39 x35DA48 x2080F0 x5CCB77 xC0183E x702282 x829F7D xE6D25C x204070 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5 }
 			state_type = unincorporated
 		}
 		

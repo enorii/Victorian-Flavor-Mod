@@ -385,6 +385,12 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 30000
+			}
+		}
 		region_state:BOL = {
 			create_pop = {
 				culture = south_andean
@@ -405,7 +411,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 32000
+				size = 2000
 			}
 		}
 	}
@@ -649,6 +655,18 @@ POPS = {
 		}
 	}
 	s:STATE_JUJUY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 28000
+			}
+		}
+		region_state:ATM = {
+			create_pop = {
+				culture = aimara
+				size = 4000
+			}
+		}
 		region_state:BOL = {
 			create_pop = {
 				culture = south_andean
@@ -703,8 +721,9 @@ POPS = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 11000
+				size = 5000
 			}
+		}
 			create_pop = {
 				culture = platinean
 				size = 1030
@@ -952,6 +971,12 @@ POPS = {
 		}
 	}
 	s:STATE_TUCUMAN = {
+		region_state:ATM = {
+			create_pop = {
+				culture = aimara
+				size = 3000
+			}
+		}
 		region_state:TUC = {
 			create_pop = {
 				culture = platinean
