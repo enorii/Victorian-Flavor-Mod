@@ -299,5 +299,87 @@ KBO = {
 	tier = principality
 	
 	cultures = { amazonian }
-	capital = STATE_BOLIVAR
+	capital = STATE_GUAVIARE
+}
+
+QCH = { 
+	color = hsv{ 0.10 0.22 0.69 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_PASTAZA
+}
+
+PNO = { 
+	color = { 74 105 54 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_ACRE
+}
+
+BAE = { 
+	color = { 35 35 117 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_LA_PAZ
+}
+
+IQH = {
+	color = { 44  156  73 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_LIMA
+}
+
+UTT = { 
+	color = { 183 153 40 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_PASTAZA	
+}
+
+TKN = { 
+	color = { 91 184 40 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS	
+}
+KRR = { 
+	color = { 10 82 76 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS	
 }
