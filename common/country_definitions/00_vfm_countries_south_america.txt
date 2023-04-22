@@ -346,7 +346,7 @@ IQH = {
 	tier = principality
 	
 	cultures = { quechua }
-	capital = STATE_LIMA
+	capital = STATE_ICA
 }
 
 UTT = { 
