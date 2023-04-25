@@ -591,6 +591,12 @@ POPS = {
 				size = 7000
 			}
 		}
+		region_state:IQH = {
+			create_pop = {
+				culture = quechua
+				size = 500
+			}
+		}
 		region_state:PEU = {
 			create_pop = {
 				culture = south_andean
@@ -792,9 +798,8 @@ POPS = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 5000
+				size = 11000
 			}
-		}
 			create_pop = {
 				culture = platinean
 				size = 1030
