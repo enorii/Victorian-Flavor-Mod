@@ -2082,7 +2082,7 @@ STATES = {
 		add_homeland = north_andean
 		add_homeland = afro_caribeno	
 		add_homeland = amazonian	
-		add_claim = c:COL	
+		add_claim = c:CLM	
 	}
 	s:STATE_CUNDINAMARCA = {
 		create_state = {
@@ -2153,7 +2153,8 @@ STATES = {
 		}
 		
 		add_homeland = south_andean
-		add_homeland = quechua		
+		add_homeland = quechua	
+		add_claim = c:PEU	
 	}
 	s:STATE_ICA = {
 		create_state = {
@@ -2172,7 +2173,8 @@ STATES = {
 		}
 		
 		add_homeland = south_andean
-		add_homeland = quechua		
+		add_homeland = quechua	
+		add_claim = c:PEU	
 	}
 	s:STATE_AREQUIPA = {
 		create_state = {
@@ -2194,6 +2196,7 @@ STATES = {
 		add_homeland = south_andean
 		add_homeland = quechua
 		add_homeland = aimara
+		add_claim = c:PEU
 	}
 	s:STATE_PARA = {
 		create_state = {
@@ -2658,6 +2661,7 @@ STATES = {
 		}
 		add_claim = c:CMA	
 		add_claim = c:SDE
+		add_claim = c:BOL
 		add_homeland = platinean
 		add_homeland = guarani	
 	}
@@ -2710,6 +2714,7 @@ STATES = {
 		add_homeland = south_andean
 		add_homeland = guarani
 		add_homeland = quechua
+		add_claim = c:BOL
 	}
 	s:STATE_LA_PAZ = {
 		create_state = {
@@ -2731,6 +2736,7 @@ STATES = {
 		add_homeland = aimara
 		add_homeland = quechua		
 		add_homeland = amazonian
+		add_claim = c:BOL
 	}
 	s:STATE_POTOSI = {
 		create_state = {
