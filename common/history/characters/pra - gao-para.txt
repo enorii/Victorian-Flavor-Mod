@@ -7,7 +7,7 @@
 			culture = cu:brazilian
 			ruler = yes
 			birth_date = 1814.7.6
-			dna = #
+			dna = dna_eduardo_angelim
 			interest_group = ig_intelligentsia
 			ig_leader = yes
 			ideology = ideology_radical
