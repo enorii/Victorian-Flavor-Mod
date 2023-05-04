@@ -1,0 +1,21 @@
+﻿CHARACTERS = {
+	c:IQH = {
+		create_character = {
+			# Antonio Huachaca, leader and Supreme Chief of the Republic of Iquicha
+			first_name = antonio
+			last_name = huachaca
+			ruler = yes
+			is_general = yes
+			dna = dna_antonio_huachaca
+			birth_date = 1775.07.23
+			interest_group = ig_rural_folk
+			ig_leader = yes
+			traits = {
+				ambitious
+				persistent
+				expert_defensive_strategist
+				firebrand
+			}
+		}	
+	}
+}

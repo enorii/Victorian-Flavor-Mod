@@ -20,7 +20,7 @@ PRA = {	#Cabanos
 		color1 = "green_dark"
 		color2 = "red"
 	}
-}	
+}
 
 CMB = { # Colombeia/hispanic america
 	pattern = "pattern_solid.tga"
