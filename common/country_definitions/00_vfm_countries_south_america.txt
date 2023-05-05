@@ -302,7 +302,7 @@ KBO = {
 	capital = STATE_GUAVIARE
 }
 
-QCH = { 
+KCW = { 
 	color = hsv{ 0.10 0.22 0.69 }
 
 
@@ -310,9 +310,22 @@ QCH = {
 	
 	tier = principality
 	
-	cultures = { quechua }
+	cultures = { amazonian }
 	capital = STATE_PASTAZA
 }
+
+JBR = { 
+	color = { 140 153 42  }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_PASTAZA
+}
+
 
 PNO = { 
 	color = { 74 105 54 }
@@ -361,6 +374,18 @@ UTT = {
 	capital = STATE_PASTAZA	
 }
 
+YGA = { 
+	color = { 150 153 42 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_PASTAZA	
+}
+
 TKN = { 
 	color = { 91 184 40 }
 
@@ -372,6 +397,7 @@ TKN = {
 	cultures = { amazonian }
 	capital = STATE_AMAZONAS	
 }
+
 KRR = { 
 	color = { 10 82 76 }
 

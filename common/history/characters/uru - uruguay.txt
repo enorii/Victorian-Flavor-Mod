@@ -6,7 +6,7 @@
 			last_name = "Oribe"
 			ruler = yes
 			ig_leader = yes
-			age = 44
+			birth_date = 1792.08.26
 			dna = dna_manuel_oribe
 			interest_group = ig_landowners
 			ideology = ideology_moderate
