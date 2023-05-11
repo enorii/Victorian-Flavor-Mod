@@ -92,6 +92,12 @@
 	s:STATE_ZULIA={
 		region_state:REF={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_coffee_plantation"
 				level=1
 				reserves=1
@@ -113,6 +119,12 @@
 	}
 	s:STATE_MIRANDA={
 		region_state:VNZ={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -289,6 +301,12 @@
 	}
 	s:STATE_CAUCA={
 		region_state:CLM={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -679,6 +697,12 @@
 			}
 		}
 		region_state:PES={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 			create_building={
 				building="building_barracks"
 				level=2
