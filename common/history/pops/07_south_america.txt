@@ -356,6 +356,7 @@ POPS = {
 			create_pop = {
 				culture = aimara
 				size = 17710
+				religion = catholic
 			}
 			create_pop = {
 				culture = aimara
@@ -377,12 +378,7 @@ POPS = {
 		region_state:ATM = {
 			create_pop = {
 				culture = aimara
-				size = 37236
-			}
-			create_pop = {
-				culture = aimara
-				religion = camaquen
-				size = 26964
+				size = 63236
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -464,12 +460,12 @@ POPS = {
 				size = 192600
 			}
 			create_pop = {
-				culture = aimara
+				culture = aimara				
+				religion = catholic
 				size = 107202
 			}
 			create_pop = {
 				culture = aimara
-				religion = camaquen
 				size = 160803
 			}
 			create_pop = {
@@ -491,10 +487,10 @@ POPS = {
 			create_pop = {
 				culture = aimara
 				size = 26840
+				religion = catholic
 			}
 			create_pop = {
 				culture = aimara
-				religion = camaquen
 				size = 95157
 			}
 			create_pop = {
@@ -640,11 +636,11 @@ POPS = {
 			}
 			create_pop = {
 				culture = aimara
+				religion = catholic
 				size = 17447
 			}
 			create_pop = {
 				culture = aimara
-				religion = camaquen
 				size = 44381
 			}
 			create_pop = {
