@@ -487,10 +487,10 @@ POPS = {
 			create_pop = {
 				culture = aimara
 				size = 26840
-				religion = catholic
 			}
 			create_pop = {
 				culture = aimara
+				religion = catholic
 				size = 95157
 			}
 			create_pop = {
@@ -669,11 +669,11 @@ POPS = {
 			}
 			create_pop = {
 				culture = aimara
+				religion = catholic
 				size = 778
 			}
 			create_pop = {
 				culture = aimara
-				religion = camaquen
 				size = 295
 			}
 			create_pop = {
