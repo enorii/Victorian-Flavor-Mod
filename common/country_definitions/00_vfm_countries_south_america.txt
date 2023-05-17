@@ -409,3 +409,28 @@ KRR = {
 	cultures = { amazonian }
 	capital = STATE_AMAZONAS	
 }
+
+PHL = { 
+	color = { 235 192 75 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_RIO_NEGRO	
+}
+
+
+KWQ = { 
+	color = { 81 224 34 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_ARAUCANIA	
+}
