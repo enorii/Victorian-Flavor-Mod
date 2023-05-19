@@ -1,14 +1,12 @@
 ﻿DIPLOMACY = {
-	c:PEU = {
-		create_diplomatic_pact = {
-			country = c:IQH
-			type = dependency
-		}
-	}
 	c:BOL = {
 		create_diplomatic_pact = {
 			country = c:PEU
 			type = confederation
+		}
+		create_diplomatic_pact = {
+			country = c:IQH
+			type = dependency
 		}
 	}
 	c:SPA = {
