@@ -2,8 +2,8 @@
 	c:IQH = {
 		create_character = {
 			# Antonio Huachaca, leader and Supreme Chief of the Republic of Iquicha
-			first_name = antonio
-			last_name = huachaca
+			first_name = Antonio
+			last_name = Huachaca
 			ruler = yes
 			is_general = yes
 			dna = dna_antonio_huachaca

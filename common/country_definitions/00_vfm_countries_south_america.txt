@@ -410,6 +410,42 @@ KRR = {
 	capital = STATE_AMAZONAS	
 }
 
+TCN = { 
+	color = { 10 100 76 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS	
+}
+
+SUA = { 
+	color = { 100 100 76 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS	
+}
+
+TIU = { 
+	color = { 100 200 76 }
+
+
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS	
+}
+
 PHL = { 
 	color = { 235 192 75 }
 
