@@ -39,10 +39,28 @@ POPS = {
 		}
 	}
 	s:STATE_GUAYANA = {
-		region_state:KLG = {
+		region_state:AWK = {
 			create_pop = {
 				culture = amazonian
-				size = 50200
+				size = 12550
+			}
+		}
+		region_state:AKW = {
+			create_pop = {
+				culture = amazonian
+				size = 12550
+			}
+		}
+		region_state:MKH = {
+			create_pop = {
+				culture = amazonian
+				size = 12550
+			}
+		}
+		region_state:WPN = {
+			create_pop = {
+				culture = amazonian
+				size = 12550
 			}
 		}
 		region_state:NET = {
@@ -175,10 +193,16 @@ POPS = {
 		}
 	}
 	s:STATE_BOLIVAR = {
-		region_state:KLG = {
+		region_state:CRB = {
 			create_pop = {
 				culture = amazonian
-				size = 124000
+				size = 82666
+			}
+		}
+		region_state:WRO = {
+			create_pop = {
+				culture = amazonian
+				size = 41333
 			}
 		}
 		region_state:VNZ = {
@@ -232,7 +256,19 @@ POPS = {
 		region_state:KBO = {
 			create_pop = {
 				culture = amazonian
-				size = 69720
+				size = 59405
+			}
+		}
+		region_state:CRP = {
+			create_pop = {
+				culture = amazonian
+				size = 5210
+			}
+		}
+		region_state:MCG = {
+			create_pop = {
+				culture = amazonian
+				size = 5105
 			}
 		}
 		region_state:TCN = {
@@ -357,7 +393,7 @@ POPS = {
 				size = 10080
 			}
 		}
-		region_state:PNO = {
+		region_state:KKM = {
 			create_pop = {
 				culture = amazonian 
 				size = 14400
@@ -861,7 +897,7 @@ POPS = {
 				size = 2000
 			}
 		}
-		region_state:PAT = {
+		region_state:PHL = {
 			create_pop = {
 				culture = patagonian
 				size = 30000
@@ -906,7 +942,7 @@ POPS = {
 				size = 31
 			}
 		}
-		region_state:PAT = {
+		region_state:PHL = {
 			create_pop = {
 				culture = patagonian
 				size = 17000
@@ -918,7 +954,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAMPA = {
-		region_state:PAT = {
+		region_state:PHL = {
 			create_pop = {
 				culture = patagonian
 				size = 8100
@@ -1210,7 +1246,7 @@ POPS = {
 				size = 4243
 			}
 		}
-		region_state:THL = {
+		region_state:KWQ = {
 			create_pop = {
 				culture = patagonian
 				size = 28200
@@ -1263,13 +1299,25 @@ POPS = {
 		region_state:TKN = {
 			create_pop = {
 				culture = amazonian
-				size = 63000
+				size = 56700
+			}
+		}
+		region_state:MTS = {
+			create_pop = {
+				culture = amazonian
+				size = 6300
 			}
 		}
 		region_state:KRR = {
 			create_pop = {
 				culture = amazonian
-				size = 22000
+				size = 11000
+			}
+		}
+		region_state:YMM = {
+			create_pop = {
+				culture = amazonian
+				size = 11000
 			}
 		}
 		region_state:PRA = {
