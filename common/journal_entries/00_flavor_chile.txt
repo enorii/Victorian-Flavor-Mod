@@ -1,21 +1,23 @@
 je_terra_australis = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
-	complete = {
-		calc_true_if = {
-
-			country_or_subject_owns_entire_state_region = STATE_ARAUCANIA
-			country_or_subject_owns_entire_state_region = STATE_LOS_RIOS
-			amount = 2
-		}
+	is_shown_when_inactive = {
+		exists = c:CHL
+		root= c:CHL
 	}
 
-	on_complete = {
-		c:CHL = {
-			trigger_event = {
-				id = journal_flavor_chile.1
-		    }
+    possible = {
+		country_has_primary_culture = cu:chilean
+	}
+
+
+	complete = {
+		owns_entire_state_region = STATE_LOS_RIOS
+		owns_entire_state_region = STATE_ARAUCANIA
 		}
+
+	on_complete = {
+        trigger_event = { id = journal_flavor_chile.1 }
 	}
 
 	status_desc = {
@@ -27,6 +29,5 @@ je_terra_australis = {
 	}
     should_be_pinned_by_default = yes
 	weight = 100
-	}
 }
 
