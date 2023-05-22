@@ -172,10 +172,6 @@
 			country = c:SLS
 			type = confederation
 		}
-		create_diplomatic_pact = {
-			country = c:MSS
-			type = confederation
-		}
 	}
 	c:BEX = {
 		create_diplomatic_pact = {
