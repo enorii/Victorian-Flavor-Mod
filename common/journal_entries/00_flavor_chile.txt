@@ -10,7 +10,6 @@ je_terra_australis = {
 		country_has_primary_culture = cu:chilean
 	}
 
-
 	complete = {
 		owns_entire_state_region = STATE_LOS_RIOS
 		owns_entire_state_region = STATE_ARAUCANIA
@@ -27,7 +26,37 @@ je_terra_australis = {
 			}
 		}
 	}
-    should_be_pinned_by_default = yes
+    should_be_pinned_by_default = no
 	weight = 100
 }
 
+je_generation_42 = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	is_shown_when_inactive = {
+		exists = c:CHL
+		root= c:CHL
+	}
+
+	complete = {
+		bureaucracy > 0
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 2
+		}
+	}
+
+	on_complete = {
+        trigger_event = { id = journal_flavor_chile.2 }
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_generation_42_status
+			}
+		}
+	}
+    should_be_pinned_by_default = yes
+	weight = 100
+}

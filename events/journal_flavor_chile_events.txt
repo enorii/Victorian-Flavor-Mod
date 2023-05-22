@@ -1,5 +1,6 @@
 namespace = journal_flavor_chile_events
 
+#Our borders
 journal_flavor_chile.1 = {
 	type = country_event
 	placement = root
@@ -25,8 +26,7 @@ journal_flavor_chile.1 = {
 	option = {	
 		name = journal_flavor_chile.1.a
 		custom_tooltip = journal_flavor_chile.1.a.tt
-		default_option = yes
-		ai_chance = { base = 0 }
+		ai_chance = { base = 1 }
 			every_scope_state = {
 				limit = {
 					OR = {
@@ -44,6 +44,7 @@ journal_flavor_chile.1 = {
 			country = c:PEU
 			value = -50
 		}
+	}
 
     option = {
 		name = journal_flavor_chile.1.b
@@ -57,6 +58,59 @@ journal_flavor_chile.1 = {
 					}
 				}
 				set_state_type = incorporated
-			}	
+		}	
+	}
+}
+
+
+
+#Generation of the '42
+journal_flavor_chile.2 = {
+	type = country_event
+	placement = root
+
+	title = journal_flavor_chile.2.t
+	desc = journal_flavor_chile.2.d
+	flavor = journal_flavor_chile.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_middleclass_cafe.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/middleclass_cafe"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	immediate = {
+	}
+
+	option = {
+		name = journal_flavor_chile.2.a
+		custom_tooltip = journal_flavor_chile.2.a.tt
+            	add_modifier = {
+			name = chilean_literature
+			}
+		create_character = {
+			first_name = Francisco
+			last_name = Bilbao
+			birth_date = 1823.1.9
+			dna = dna_francisco_bilbao
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+			traits = {
+				persistent
+			}			
 		}
 	}
+	option = {
+		name = journal_flavor_chile.2.b
+		custom_tooltip = journal_flavor_chile.2.b.tt
+            	add_modifier = {
+			name = chilean_literature_rejected
+		}
+	}
+}
+
