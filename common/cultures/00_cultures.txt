@@ -3523,7 +3523,7 @@ occitan={
 	religion = catholic
 	traits = { francophone european_heritage }
 
-	# the best wine is from Occitania, of course.
+	# the best wine is from Occitania, of course. Wrong, is from Chile, obviously.
 	obsessions = {
 		wine
 	}
@@ -13912,6 +13912,11 @@ north_andean={
 	color= hsv{ 0.20 0.35 0.41 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
+
+	obsessions = {
+		coffee
+	}	
+
 	male_common_first_names={
 		Antonio
 		Camilo
@@ -14202,6 +14207,11 @@ platinean={
 	color=rgb{ 88 99 133 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
+
+	obsessions = {
+		wine meat
+	}	
+
 	male_common_first_names={
 		Agustin
 		Antonio
@@ -14341,6 +14351,11 @@ brazilian={
 	color= hsv{ 0.50 0.53 0.40 }
 	religion = catholic
 	traits = { lusophone european_heritage }
+
+	obsessions = {
+		meat
+	}	
+
 	male_common_first_names={
 		Afonso
 		Antonio_3

@@ -820,6 +820,9 @@ chilean={
 	color= { 236  159  89 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
+		obsessions = {
+		wine meat
+	}
 	male_common_first_names={
 		Adolfo
 		Agustin
