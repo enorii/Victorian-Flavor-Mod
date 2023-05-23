@@ -7,7 +7,7 @@ je_terra_australis = {
 	}
 
     possible = {
-		country_has_primary_culture = cu:chilean
+				c:CHL = THIS
 	}
 
 	complete = {
@@ -40,6 +40,10 @@ je_generation_42 = {
 		root= c:CHL
 	}
 
+    possible = {
+				has_technology_researched = dialectics
+	}
+
 	complete = {
 		bureaucracy > 0
 		institution_investment_level = {
@@ -58,6 +62,44 @@ je_generation_42 = {
 		first_valid = {
 			triggered_desc = {
 				desc = je_generation_42_status
+			}
+		}
+	}
+
+    should_be_pinned_by_default = yes
+	weight = 100
+}
+
+je_puq_colonization = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	is_shown_when_inactive = {
+		exists = c:CHL
+		root= c:CHL
+	}
+
+    possible = {
+				has_technology_researched = nationalism
+	}
+
+	complete = {
+		bureaucracy > 0
+		institution_investment_level = {
+			institution = colonization
+			value >= 2
+		}
+	}
+
+	on_complete = {
+        trigger_event = { 
+			id = journal_flavor_chile.3
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_puq_colonization
 			}
 		}
 	}
