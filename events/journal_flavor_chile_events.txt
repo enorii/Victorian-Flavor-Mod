@@ -48,6 +48,7 @@ journal_flavor_chile.1 = {
 
     option = {
 		name = journal_flavor_chile.1.b
+		default_option = yes
 		custom_tooltip = journal_flavor_chile.1.b.tt
 		ai_chance = { base = 1 }
 			every_scope_state = {
@@ -89,6 +90,7 @@ journal_flavor_chile.2 = {
 
 	option = {
 		name = journal_flavor_chile.2.a
+		default_option = yes
 		custom_tooltip = journal_flavor_chile.2.a.tt
             	add_modifier = {
 			name = chilean_literature
