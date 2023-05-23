@@ -1,4 +1,4 @@
-namespace = journal_flavor_chile_events
+namespace = journal_flavor_chile
 
 journal_flavor_chile.1 = { #Our borders
 	type = country_event
