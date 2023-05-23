@@ -85,7 +85,7 @@ je_puq_colonization = {
 	complete = {
 		bureaucracy > 0
 		institution_investment_level = {
-			institution = colonization
+			institution = colonial_affairs
 			value >= 2
 		}
 	}
