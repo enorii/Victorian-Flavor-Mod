@@ -483,7 +483,6 @@ GLOBAL = {
 			annex = c:LRJ
 			annex = c:SJN
 			annex = c:SLS
-			annex = c:MSS
 			s:STATE_CHACO = {
 				add_claim = c:BUE
 			}
