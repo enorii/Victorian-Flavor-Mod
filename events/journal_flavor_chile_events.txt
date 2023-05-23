@@ -1,7 +1,6 @@
 namespace = journal_flavor_chile_events
 
-#Our borders
-journal_flavor_chile.1 = {
+journal_flavor_chile.1 = { #Our borders
 	type = country_event
 	placement = root
 	
@@ -26,23 +25,28 @@ journal_flavor_chile.1 = {
 	option = {	
 		name = journal_flavor_chile.1.a
 		custom_tooltip = journal_flavor_chile.1.a.tt
-		ai_chance = { base = 1 }
-			every_scope_state = {
-				limit = {
-					OR = {
-						state_region = s:STATE_ARAUCANIA
-						state_region = s:STATE_LOS_RIOS
-					}
+		
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_ARAUCANIA
+					state_region = s:STATE_LOS_RIOS
 				}
 				set_state_type = incorporated
-			}
+		    }	
+		}
 
-        	s:STATE_TARAPACA = {
-				add_claim = c:CHL
-			}
+        s:STATE_TARAPACA = {
+			add_claim = c:CHL
+		}
+
         change_relations = {
 			country = c:PEU
 			value = -50
+		}
+
+		ai_chance = { 
+			base = 1 
 		}
 	}
 
@@ -50,23 +54,24 @@ journal_flavor_chile.1 = {
 		name = journal_flavor_chile.1.b
 		default_option = yes
 		custom_tooltip = journal_flavor_chile.1.b.tt
-		ai_chance = { base = 1 }
-			every_scope_state = {
-				limit = {
-					OR = {
-						state_region = s:STATE_ARAUCANIA
-						state_region = s:STATE_LOS_RIOS
-					}
+		
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_ARAUCANIA
+					state_region = s:STATE_LOS_RIOS
 				}
-				set_state_type = incorporated
+			}
+			set_state_type = incorporated
+		}
+
+		ai_chance = { 
+			base = 1 
 		}	
 	}
 }
 
-
-
-#Generation of the '42
-journal_flavor_chile.2 = {
+journal_flavor_chile.2 = { #Generation of the '42
 	type = country_event
 	placement = root
 
@@ -89,12 +94,14 @@ journal_flavor_chile.2 = {
 	}
 
 	option = {
-		name = journal_flavor_chile.2.a
 		default_option = yes
+		name = journal_flavor_chile.2.a
 		custom_tooltip = journal_flavor_chile.2.a.tt
-            	add_modifier = {
+
+        add_modifier = {
 			name = chilean_literature
-			}
+		}
+
 		create_character = {
 			first_name = Francisco
 			last_name = Bilbao
@@ -107,12 +114,12 @@ journal_flavor_chile.2 = {
 			}			
 		}
 	}
+
 	option = {
 		name = journal_flavor_chile.2.b
 		custom_tooltip = journal_flavor_chile.2.b.tt
-            	add_modifier = {
+        add_modifier = {
 			name = chilean_literature_rejected
 		}
 	}
 }
-
