@@ -20,6 +20,9 @@ journal_flavor_chile.1 = { #Our borders
 	duration = 3
 
 	immediate = {
+		c:CHL = {
+			save_scope_as = chl_scope
+		}
 	}
 		
 	option = {	
@@ -151,10 +154,14 @@ journal_flavor_chile.3 = { #Colonization of Punta Arenas
 		name = journal_flavor_chile.3.a
 		custom_tooltip = journal_flavor_chile.3.a.tt
 
+        add_modifier = {
+			name = colonial_enthusiasm_settlers
+		}
 		s:STATE_ARAUCANIA = {
 			set_owner_of_provinces = {
 				country = c:CHL
-				provinces = { x029AC x5A7430 }
+				provinces = { x029AC8 x5A7430 }
 			}
 		}
 	}
+}
