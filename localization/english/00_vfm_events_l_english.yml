@@ -538,7 +538,7 @@ journal_flavor_argentina.2.b: "It is better to compromise."
   journal_flavor_chile.1.b: "We have achieved our ambitions"
   journal_flavor_chile.1.b.tt: "We have a strategic position that we can't risk to lose, let's integrate it!"
   journal_flavor_chile.1.a: "[SCOPE.sCountry('chl_scope').GetNameNoFlag]'s destiny is to be THE jewel of the pacific!"
-  journal_flavor_chile.1.a.tt: "We are in our finest moment and we can't stop right now, we must push north and annex all the atacama desert!"
+  journal_flavor_chile.1.a.tt: "We are in our finest moment and we can't stop right now, we must push north and annex all the Atacama desert!"
 
   journal_flavor_chile.2: "The Literary Society"
   journal_flavor_chile.2.t: "The Literary Society"
