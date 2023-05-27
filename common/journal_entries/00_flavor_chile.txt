@@ -33,7 +33,7 @@ je_terra_australis = {
 }
 
 je_generation_42 = {
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 
 	is_shown_when_inactive = {
 		exists = c:CHL
@@ -85,7 +85,7 @@ je_puq_colonization = {
 	complete = {
 		bureaucracy > 0
 		institution_investment_level = {
-			institution = colonial_affairs
+			institution = institution_colonial_affairs
 			value >= 2
 		}
 	}
@@ -108,67 +108,48 @@ je_puq_colonization = {
 	weight = 100
 }
 
-je_1851_rev = { #The liberals strike back
-	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+je_easter_chl = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
- 	immediate = {
-		}
-
-	possible = {
-		OR = {
-			has_law = law_type:law_censorship
-			has_law = law_type:law_wealth_voting
-		}
+	is_shown_when_inactive = {
+		exists = c:CHL
+		root= c:CHL
 	}
 
-	set_variable = {
-			name = je_1851_rev_var
-			value = 0
-		}
-
-	on_weekly_pulse = {
-		effect = {
-				limit = {
-					is_at_war = no
-				}
-				change_variable = {
-					name = je_1851_rev_var
-					add = 1
-				}
-			}
-		}
-
-	timeout = 200
+    possible = {
+				has_technology_researched = civilizing_mission
+			    has_interest_marker_in_region = region_oceania
+            		    any_scope_state = {
+			    is_incorporated = yes
+			     any_scope_building = {
+				    is_building_type = building_naval_base
+				    level >= 8
+			    }
+	        }
+	    }
 
 	complete = {
-		scope:journal_entry = { 
-		    is_goal_complete = yes 
+		bureaucracy > 0
+		institution_investment_level = {
+			institution = institution_colonial_affairs
+			value >= 3
 		}
-	}
-
-	goal_add_value = {
-		value = 120000
 	}
 
 	on_complete = {
-		trigger_event = {
+        trigger_event = { 
 			id = journal_flavor_chile.4
 		}
 	}
 
-	current_value = {
-		value = var:je_1851_rev_var
-	}
-
-	progressbar = yes
-
-	weight = 10000
-
 	status_desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = je_1851_rev
+				desc = je_polynesia_chl
 			}
 		}
 	}
+
+    should_be_pinned_by_default = no
+	weight = 100
 }

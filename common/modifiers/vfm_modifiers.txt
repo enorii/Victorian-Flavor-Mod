@@ -231,3 +231,8 @@ chilean_literature_rejected = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_prestige_add = -15
 }
+
+rapanui_chl_big_money = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 7500
+}
