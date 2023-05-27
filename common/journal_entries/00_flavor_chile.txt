@@ -153,3 +153,56 @@ je_easter_chl = {
     should_be_pinned_by_default = no
 	weight = 100
 }
+
+je_pacific_war_chl = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+		ig:ig_industrialists = {
+			is_marginal = no
+		}
+		OR = {
+			has_law = law_type:law_free_trade
+		}
+	}
+
+	possible = {
+		OR = {
+			has_law = law_type:law_free_trade
+		}
+		ig:ig_industrialists = {
+			is_powerful = yes
+			is_in_government = yes
+		}
+	}
+
+	complete = {
+	    c:BOL = {
+	    	owns_entire_state_region = STATE_ANTOFAGASTA
+	    	is_at_war = no
+			relations:root <= 20 
+		}            
+            		    any_scope_state = {
+			    is_incorporated = yes
+			     any_scope_building = {
+				    is_building_type = building_sulfur_mines
+				    level >= 3
+				    percent > 0.9
+			        occupancy > 0.9
+			    }
+	        }
+		}
+
+	on_complete = {
+		trigger_event = { id = journal_flavor_chile.5 }
+	}
+
+	invalid = {
+		ig:ig_industrialists = {
+			is_marginal = yes
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

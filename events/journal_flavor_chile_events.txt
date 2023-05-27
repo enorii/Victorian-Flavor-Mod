@@ -33,7 +33,6 @@ journal_flavor_chile.1 = { #Our borders
 			limit = {
 				OR = {
 					state_region = s:STATE_ARAUCANIA
-					state_region = s:STATE_LOS_RIOS
 				}
 				set_state_type = incorporated
 		    }	
@@ -196,10 +195,11 @@ journal_flavor_chile.4  = { #rapanui!!
 		custom_tooltip = journal_flavor_chile.4.a.tt
 
         add_modifier = {
-            name = rapanui_money
+            name = rapanui_chl_big_money
 			months = 2
 		}
 		s:STATE_TAHITI = {
+			add_claim = c:CHL
 			set_owner_of_provinces = {
 				country = c:CHL
 				provinces = { x9A79DC }
@@ -207,3 +207,47 @@ journal_flavor_chile.4  = { #rapanui!!
 		}
 	}
 }	
+
+journal_flavor_chile.5 = { #War of the Pacific
+	type = country_event
+	placement = ROOT
+
+	title = journal_flavor_chile.5.t
+	desc = journal_flavor_chile.5.d
+	flavor = journal_flavor_chile.5.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_before_the_battle.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/before_the_battle"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	option = {
+		default_option = yes
+		name = journal_flavor_chile.5.a
+		custom_tooltip = journal_flavor_chile.5.a.tt
+
+        create_diplomatic_play = {
+			name = war_of_the_pacific
+			target_state = s:STATE_ANTOFAGASTA.region_state:BOL
+			
+			type = dp_conquer_state
+			                }
+			            }
+			            
+	option = {
+		default_option = yes
+		name = journal_flavor_chile.5.b
+		custom_tooltip = journal_flavor_chile.5.b.tt
+
+        add_modifier = {
+			name = pacific_war_rejected
+			months = normal_modifier_time
+		}
+	}
+}
