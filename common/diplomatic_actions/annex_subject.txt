@@ -5,12 +5,41 @@
 
 	potential = {
 		scope:target_country = {
-			is_direct_subject_of = ROOT
+			#if = {
+			#	limit = {
+			#		is_country_type = unrecognized
+			#	}
+			#	country_rank < rank_value:unrecognized_regional_power
+			#}
+			#if = {
+			#	limit = {
+			#		is_country_type = recognized
+			#	}
+			#	country_rank < rank_value:major_power
+			#}
+			is_direct_subject_of = root
+			OR = {
+				is_adjacent = root
+				AND = {
+					any_scope_state = {
+						is_coastal = yes
+					}
+					any_neighboring_state = {
+						owner = { 
+							is_adjacent = root
+							is_direct_subject_of = root
+						}
+					}
+				}
+			}
 			OR = {
 				is_subject_type = subject_type_puppet
 				is_subject_type = subject_type_vassal
 				is_subject_type = subject_type_dependency
 				is_subject_type = subject_type_real_union
+			}
+			NOT = { 
+				is_country_type = colonial
 			}
 			overlord = { NOT = { is_subject_type = subject_type_customs_union } }
 			#NOT = { overlord = { has_diplomatic_pact = { who = overlord type = customs_union } } 
