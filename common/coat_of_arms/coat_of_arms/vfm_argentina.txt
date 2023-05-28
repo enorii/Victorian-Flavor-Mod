@@ -202,6 +202,17 @@ ENT = {	# Entre Rios
 	}
 }
 
+MSS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "white"
+	}
+}
+
 BUE = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"

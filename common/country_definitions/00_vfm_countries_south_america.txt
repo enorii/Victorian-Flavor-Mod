@@ -222,6 +222,18 @@ LRJ = {
 	capital = STATE_TUCUMAN
 }
 
+#Misiones
+MSS = {
+	color = { 111 132 130 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { platinean }
+	capital = STATE_CORRIENTES
+}
+
 #Jujuy
 JUJ = {
 	color = { 51 132 130 }
