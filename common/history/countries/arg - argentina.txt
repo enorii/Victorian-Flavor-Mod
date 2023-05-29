@@ -10,13 +10,12 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_no_migration_controls
 
 		add_taxed_goods = g:tobacco
 		
@@ -174,7 +173,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation
@@ -230,7 +229,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation
@@ -286,7 +285,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation
@@ -342,7 +341,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation
@@ -398,7 +397,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_frontier_colonialism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_per_capita_based_taxation

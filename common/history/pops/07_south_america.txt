@@ -452,7 +452,7 @@ POPS = {
 		region_state:BAE = {
 			create_pop = {
 				culture = amazonian
-				size = 8000
+				size = 2000
 			}
 		}
 		region_state:GNI = {
@@ -468,7 +468,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 8000
+				size = 6000
 			}
 			create_pop = {
 				culture = quechua
@@ -489,13 +489,13 @@ POPS = {
 		region_state:PNO = {
 			create_pop = {
 				culture = amazonian
-				size = 4000
+				size = 24000
 			}
 		}
 		region_state:BAE = {
 			create_pop = {
 				culture = amazonian
-				size = 10000
+				size = 20000
 			}
 		}
 		region_state:BOL = {
@@ -523,7 +523,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 48000
+				size = 4000
 			}
 			create_pop = {
 				culture = afro_caribeno	# Yungas Afro-Bolivians
@@ -543,7 +543,6 @@ POPS = {
 			}
 			create_pop = {
 				culture = aimara
-				religion = catholic
 				size = 95157
 			}
 			create_pop = {

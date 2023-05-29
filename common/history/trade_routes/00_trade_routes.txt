@@ -641,28 +641,6 @@
 			target = c:NET.market
 		}		
 	}
-	
-	# Algeria
-	c:ALD = {
-		create_trade_route = {
-			goods = artillery
-			level = 1
-			direction = import
-			target = c:SPA.market
-		}
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:SPA.market
-		}
-		create_trade_route = {
-			goods = wine
-			level = 2
-			direction = export
-			target = c:SPA.market
-		}		
-	}	
 
 	# Morocco
 	c:MOR = {
@@ -820,6 +798,12 @@
 			goods = hardwood
 			level = 3
 			direction = import
+			target = c:RUS.market
+		}	
+        create_trade_route = {
+			goods = sugar
+			level = 5
+			direction = export
 			target = c:RUS.market
 		}		
 		create_trade_route = {
@@ -1618,6 +1602,21 @@
 			level = 1
 			direction = import
 			target = c:TUR.market
+		}
+	}
+	# Tunis
+	c:TUN = {
+		create_trade_route = {
+			goods = silk
+			level = 2
+			direction = import
+			target = c:PER.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:EGY.market
 		}
 	}
 

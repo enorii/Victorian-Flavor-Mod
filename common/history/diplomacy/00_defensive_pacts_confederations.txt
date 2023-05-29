@@ -1,4 +1,4 @@
-﻿mDIPLOMACY = {
+﻿DIPLOMACY = {
 	c:ENT = {
 		create_diplomatic_pact = {
 			country = c:COE
