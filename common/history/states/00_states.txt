@@ -2910,6 +2910,7 @@ STATES = {
 		create_state = {
 			country = c:PAT
 			owned_provinces = { xF2263F x8848C6 xF0CA34 x90C050 x90C0D0 x02C052 x49F9FC xCFB481 x142AEF x83D701 x3D3ED8 }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:CHL
@@ -2924,6 +2925,7 @@ STATES = {
 		create_state = {
 			country = c:CHL
 			owned_provinces = { x553B3F x521B0A x592AB4 x9EF738 x4A805F x144683 xEFB409 x45155F xB79F3F xC42462 }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:KWQ

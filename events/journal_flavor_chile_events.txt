@@ -33,6 +33,7 @@ journal_flavor_chile.1 = { #Our borders
 			limit = {
 				OR = {
 					state_region = s:STATE_ARAUCANIA
+					state_region = s:STATE_LOS_RIOS
 				}
 				set_state_type = incorporated
 		    }	
