@@ -893,7 +893,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 2000
+				size = 1500
 			}
 		}
 		region_state:PHL = {
@@ -1039,6 +1039,12 @@ POPS = {
 				pop_type = slaves
 				culture = afro_caribeno
 				size = 250
+			}
+		}
+		region_state:PHL = {
+			create_pop = {
+				culture = patagonian
+				size = 500
 			}
 		}
 	}
