@@ -12,20 +12,9 @@
 			ideology = ideology_republican_leader
 			traits = {
 				romantic
-			}
-		}
-
-		create_character = {
-			first_name = "Francisco"
-			last_name = "Luna_Pizarro"
-			historical = yes
-			ig_leader = yes
-			birth_date = 1780.12.03
-			dna = dna_francisco_luna_piazarro
-			interest_group = ig_devout
-			ideology = ideology_republican_leader
-			traits = {
-				
+				erudite
+				basic_offensive_planner
+				basic_diplomat
 			}
 		}
 
@@ -41,6 +30,23 @@
 				meticulous
 				basic_offensive_planner
 			}
+		}
+
+		create_character = {
+			# Francisco Luna Pizarro
+			first_name = "Francisco"
+			last_name = "de_Luna_Pizarro"
+			historical = yes
+			ig_leader = yes
+			birth_date = 1780.12.03
+			dna = dna_francisco_luna_piazarro
+			interest_group = ig_devout
+			ideology = ideology_republican_leader
+			traits = {
+				charismatic
+				erudite
+				expert_political_operator
+			}	
 		}
 	}
 }

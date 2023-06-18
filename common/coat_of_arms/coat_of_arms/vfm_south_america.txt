@@ -22,7 +22,7 @@ PRA = {	#Cabanos
 	}
 }
 
-CMB = { # Colombeia/hispanic america
+CMB = { #Colombeia/Hispanic America
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 

@@ -1,4 +1,4 @@
-﻿ l_english:
+﻿l_english:
   je_ainu_frontier: "Hokkaido Development Commission"
   je_ainu_frontier_reason: "The development of Japan's large northern island was seen as a means to defend Japan from a rapidly developing and expansionist Russia. Development also promised to yield the needed natural resources for a growing capitalist economy."
   je_ainu_frontier_status: "Colonize the island of Hokkaido."
@@ -162,6 +162,22 @@
   je_peru_bolivia_the_feeble_union_reason: "The Peruvians are tricky to keep pleased, if our differences can't be resolved by the quill soon they may seek to resolve them by the musket"
   je_peru_bolivia_the_feeble_union_goal: "Relations between [SCOPE.sCountry('peu_scope').GetName] and [SCOPE.GetRootScope.GetCountry.GetName] is less than 20 for 20 months (can be interrupted)."
 
+  je_terra_australis: "To The Terra Australis!"
+  je_terra_australis_status: "We have to reach the strait of Magellan by land to achieve our dominance of south western Andes"
+  je_terra_australis_reason: "Granted to us in the 16th century, but never effectively controlled, Terra Australis is a wild piece of land south the strait of Magellan, its occupation is necessary to control the pass between the Pacific and the Atlantic, and to achieve our natural borders: the thin piece of land between the Andes and the Pacific..."
+  je_generation_42: "The Literary Society"
+  je_generation_42_status: "A Chilean literary movement is being born, but with it the Pipiolos, power hungry, are getting new adepts..."
+  je_generation_42_reason: "The Pipiolos, usually young professionals that bring ideas from Europe, just defeated in the civil war of 1829, are getting new adepts; by one side, these new adepts are originating a new national literature; by the other side, these new adepts are radicals and willing to provoke a new civil war in the country"
+  je_puq_colonization: "Colonization of Punta Arenas"
+  je_puq_colonization_status: "We must colonize the Punta Arenas if we want to exercise our sovereignty over the strait of Magellan!"
+  je_puq_colonization_reason: "A strategic location in South America and the Pacific, Punta Arenas, the port of the Strait of Magellan is vital for our expansion in the southern patagonia"
+  je_easter_chl: "Annexation of Rapa Nui"
+  je_polynesia_chl: "Purchasing Rapa Nui is the first step for our colonization of the Pacific"
+  je_polynesia_chl_reason: "Chile, a coastal nation, faces the great Pacific ocean, at the other side of it many riches await us, but we need a first step into the Polynesia, and Rapa Nui it's the perfect island..."
+  je_pacific_war_chl: "War of the Saltpeter"
+  je_pacific_war_chl_status: "We shall take the Atacama desert riches by the force!"
+  je_pacific_war_chl_reason: "The Atacama desert is very rich in minerals, specially saltpeter, and as our economy grows we need more and more of that valious mineral, because of that, many chileans travel to the Antofagasta to work in Chilean and foreign companies, but Bolivia's recent acts have attempted against our treaties; they will be punished for that!"
+
   je_annex_subject_junior: "Integration into [SCOPE.sCountry('overlord_scope').GetNameNoFlag]"
   je_annex_subject_junior_reason: "Our integration into [SCOPE.sCountry('overlord_scope').GetNameNoFlag] has begun. Our bureaucrats are working tirelessly to unite our administrations, and the process will be completed within 2 years unless we face foreign opposition."
   je_annex_subject_junior_goal: "Integration efforts are maintained for 2 years"
@@ -192,6 +208,7 @@
   je_age_of_princes_gonder_ownership_desc: "Own a [concept_state] in Gonder while no other Ethiopian centralized nations do"
   je_age_of_princes_oromia_ownership_desc: "Own a [concept_state] in Oromia while no other Ethiopian centralized nations do"
   je_age_of_princes_eritrea_ownership_desc: "Own a [concept_state] in Eritrea while no other Ethiopian centralized nations do"
+  je_age_of_princes_gambela_ownership_desc: "Own a [concept_state] in Gambela while no other Ethiopian centralized nations do"
   
 
   je_paulett_affair: "Paulet Affair"
@@ -206,8 +223,6 @@
 
   je_holy_alliance: "The Holy Alliance"
   je_holy_alliance_reason: "In 1815, Austria, Prussia, and Russia came together to retain conservative order in Europe. The Holy Alliance is now faltering, but they will still come to each other's aid against liberal revolutions and foreign interventions as long as they stay conservative themselves and maintain friendly relations."
-
-  As long as the Holy Alliance is maintained, they will come to each other's aid against liberal revolutions and foreign interventions."
   je_holy_alliance_status: "Conservative order must be maintained."
   je_holy_alliance_monarchies: "One of Austria, Prussia, or Russia have abolished the monarchy."
   je_holy_alliance_religion: "One of Austria, Prussia, or Russia have separated church and state."
@@ -216,19 +231,9 @@
   je_holy_alliance_germany: "A unified German state has emerged."
   je_holy_alliance_poland: "An independent, unified Polish state has emerged between the three powers."
   je_holy_alliance_fail: "The Holy Alliance will cease to exist."
-
-  je_terra_australis: "To The Terra Australis!"
-  je_terra_australis_status: "We have to reach the strait of Magellan by land to achieve our dominance of south western Andes"
-  je_terra_australis_reason: "Granted to us in the 16th century, but never effectively controlled, Terra Australis is a wild piece of land south the strait of Magellan, its occupation is necessary to control the pass between the Pacific and the Atlantic, and to achieve our natural borders: the thin piece of land between the Andes and the Pacific..."
-  je_generation_42: "The Literary Society"
-  je_generation_42_status: "A Chilean literary movement is being born, but with it the Pipiolos, power hungry, are getting new adepts..."
-  je_generation_42_reason: "The Pipiolos, usually young professionals that bring ideas from Europe, just defeated in the civil war of 1829, are getting new adepts; by one side, these new adepts are originating a new national literature; by the other side, these new adepts are radicals and willing to provoke a new civil war in the country"
-  je_puq_colonization: "Colonization of Punta Arenas"
-  je_puq_colonization_status: "We must colonize the Punta Arenas if we want to exercise our sovereignty over the strait of Magellan!"
-  je_puq_colonization_reason: "A strategic location in South America and the Pacific, Punta Arenas, the port of the Strait of Magellan is vital for our expansion in the southern patagonia"
-  je_easter_chl: "Annexation of Rapa Nui"
-  je_polynesia_chl: "Purchasing Rapa Nui is the first step for our colonization of the Pacific"
-  je_polynesia_chl_reason: "Chile, a coastal nation, faces the great Pacific ocean, at the other side of it many riches await us, but we need a first step into the Polynesia, and Rapa Nui it's the perfect island..."
-  je_pacific_war_chl: "War of the Saltpeter"
-  je_pacific_war_chl_status: "We shall take the Atacama desert riches by the force!"
-  je_pacific_war_chl_reason: "The Atacama desert is very rich in minerals, specially saltpeter, and as our economy grows we need more and more of that valious mineral, because of that, many chileans travel to the Antofagasta to work in Chilean and foreign companies, but Bolivia's recent acts have attempted against our treaties; they will be punished for that!"
+  
+  je_ethiopian_expansion: "Ethiopian Expansion"
+  je_ethiopian_expansion_reason: "We have succesfully united the Ethiopian people under a single banner. It is time we expand deeper into Oromia."
+  
+  je_new_zealand_colonization: "Colonization of New Zealand"
+  je_new_zealand_colonization_reason: "New Zealand remains mostly untouched. It is time we expanded throughout the islands."

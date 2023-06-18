@@ -974,7 +974,7 @@ chilean={
 kaingang = {
 	color = { 127 28 45 }
 	religion = animist
-	traits = { indigenous_american_heritage south_american_group }
+	traits = { indigenous_american_heritage }
 	male_common_first_names={
 	    Kretã
 	    Kretã
@@ -1052,6 +1052,197 @@ kaingang = {
         Terena
         Fulniô
         Atikum 
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+lickanantay = {
+	color= hsv{ 0.02 0.57 0.74 }
+	religion = camaquen
+	traits = { indigenous_american_heritage indigenous_andean }
+	male_common_first_names={
+		Agustin
+		Alejandro
+		Antonio
+		Bartolome
+		Carlos
+		David
+		Eduardo
+		Enrique
+		Evo
+		Facundo
+		Felipe
+		Francisco
+		Gregorio
+		Hugo
+		Jose
+		Juan
+		Juan_Jose
+		Manuel
+		Marcos
+		Mario
+		Maximo
+		Nicolas_2
+		Osvaldo
+		Ramon
+		Roberto
+		Santiago
+		Tupac
+		Vicente
+		Victor_2
+		Victor_Hugo
+	}
+	female_common_first_names = {
+		Adela
+		Bartolina
+		Blanca
+		Carola
+		Celsa
+		Claudia
+		Eliza
+		Ermelina
+		Gregoria
+		Hercilia
+		Lindaura
+		Maria
+		Maxima
+		Modesta
+		Sara
+		Silvia
+		Ubalda
+		Veronica
+	}
+	noble_last_names = {
+		Apaza
+		Cusicanqui
+		Katari
+		Sisa
+		Vargas
+	}
+	common_last_names={
+		Ayme
+		Calisaya
+		Cardenas
+		Castilla
+		Chino
+		Choquehuanca
+		Condori
+		Corahua
+		Hoffmann
+		Huachua
+		Huallpa
+		Larico
+		Machaca
+		Mamani
+		Morales
+		Paredes
+		Penaranda
+		Puma
+		Quilca
+		Quispe
+		Rivera
+		Sisa
+		Tamayo
+		Taquiri
+		Torres
+		Yllanes
+		Yucra
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+kichwa={
+	color= hsv{ 0.38 0.58 0.59 }
+	religion = animist
+	traits = { indigenous_american_heritage south_american_group quechua_speaking }
+	male_common_first_names={
+		Anibal
+		Augusto
+		Bento
+		Bernardo
+		Cesar
+		Daniel
+		David
+		Donato
+		Duarte
+		Ernesto
+		Estevao_2
+		Fernando
+		Francisco
+		Gabriel
+		Graciano
+		Hugo
+		Joao
+		Julio
+		Kananoe
+		Leopoldo
+		Lucas
+		Miguel
+		Nuno
+		Paulinho
+		Raoni
+		Rafael_2
+		Roberto
+		Sebastiao
+		Sergio
+		Simao
+		Vasco
+		Zeferino
+		Oscar_2
+	}
+	female_common_first_names = {
+		Catarina
+		Clara
+		Cristina
+		Maria
+		Teresa
+	}	
+	noble_last_names = {
+		Aikana
+		Amahuaca
+		Apetina
+		Baniwa
+		Bororo
+		Canela
+		Guaycuru
+		Hupda
+		Jecupe
+		Metuktire
+		Minuane
+		Nambikwara
+		Paiakan
+		Parintintin
+		Umutina
+		Wayana
+		Yanomami
+	}
+	common_last_names={
+		Arawak
+		Arawa
+		Bororo
+		Garifuna
+		Guayana
+		Ge
+		Jeiko
+		Kaingang
+		Kalinago
+		Kamakan
+		Karaja
+		Kayapo
+		Matses
+		Maxakali
+		Puri
+		Timbira
+		Xavante
+		Xerente
+		Xokieng
+		Yanomamo
 	}
 	ethnicities = {
 		1 = native_american

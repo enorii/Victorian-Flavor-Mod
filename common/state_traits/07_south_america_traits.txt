@@ -58,7 +58,7 @@ state_trait_guanabara_bay = {
 	}
 }
 
-state_trait_magellan_strait = {
+state_trait_strait_of_magellan = {
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 	
 	modifier = {

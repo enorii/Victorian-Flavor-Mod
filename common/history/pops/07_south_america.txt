@@ -430,19 +430,15 @@ POPS = {
 	s:STATE_ANTOFAGASTA = {
 		region_state:ATM = {
 			create_pop = {
-				culture = aimara
+				culture = lickanantay
 				size = 63236
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 600
-			}
-			create_pop = {
-				culture = quechua
+				culture = aimara
 				size = 1972
 			}
 			create_pop = {
-				culture = quechua
+				culture = aimara
 				religion = camaquen
 				size = 1428
 			}
@@ -553,6 +549,10 @@ POPS = {
 				culture = quechua
 				religion = camaquen
 				size = 10920
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 600
 			}
 		}
 	}
@@ -896,7 +896,7 @@ POPS = {
 				size = 1500
 			}
 		}
-		region_state:PHL = {
+		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
 				size = 30000
@@ -913,7 +913,17 @@ POPS = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 31100
+				size = 30000
+			}
+			create_pop = {
+				culture = platinean
+				size = 8000
+			}			
+		}
+		region_state:PHC = {
+			create_pop = {
+				culture = patagonian
+				size = 1100
 			}
 			create_pop = {
 				culture = platinean
@@ -941,19 +951,29 @@ POPS = {
 				size = 31
 			}
 		}
-		region_state:PHL = {
+		region_state:PHC = {
 			create_pop = {
 				culture = patagonian
-				size = 17000
+				size = 10000
 			}
 			create_pop = {
 				culture = platinean
-				size = 13900
+				size = 3900
+			}
+		}
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 7000
+			}
+			create_pop = {
+				culture = platinean
+				size = 10000
 			}
 		}
 	}
 	s:STATE_LA_PAMPA = {
-		region_state:PHL = {
+		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
 				size = 8100
@@ -1041,7 +1061,7 @@ POPS = {
 				size = 250
 			}
 		}
-		region_state:PHL = {
+		region_state:PHC = {
 			create_pop = {
 				culture = patagonian
 				size = 500

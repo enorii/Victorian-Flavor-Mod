@@ -56,5 +56,11 @@
 			months = very_long_modifier_time
 			is_decaying = yes
 		}
+
+		add_modifier = {
+			name = native_conscription_12
+			months = very_long_modifier_time
+			is_decaying = yes
+		}
 	}
 }

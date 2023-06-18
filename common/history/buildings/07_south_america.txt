@@ -678,6 +678,14 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_religious_academia" }
+			}
+		}
+		region_state:IQH={
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}	
 		}
 	}
@@ -1168,7 +1176,7 @@
 			}
 			create_building={
 				building="building_government_administration"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}			

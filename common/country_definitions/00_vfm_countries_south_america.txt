@@ -254,7 +254,7 @@ ATM = {
 
 	tier = principality
 	
-	cultures = { aimara }
+	cultures = { lickanantay }
 	capital = STATE_ANTOFAGASTA
 }
 
@@ -310,7 +310,7 @@ KCW = {
 	
 	tier = principality
 	
-	cultures = { amazonian }
+	cultures = { kichwa }
 	capital = STATE_PASTAZA
 }
 
@@ -446,7 +446,7 @@ TIU = {
 	capital = STATE_AMAZONAS	
 }
 
-PHL = { 
+PHC = { 
 	color = { 235 192 75 }
 
 

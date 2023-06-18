@@ -1548,25 +1548,25 @@
 				size = 6000
 			}
 		}
-		region_state:MRV = {
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 60000
-			}
-			create_pop = {
-				culture = chewa
-				size = 37000
-			}
-			create_pop = {
-				culture = sena
-				size = 14000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = chewa
-				size = 5000
-			}
-		}
+		#region_state:MRV = { # TODO: add MRV in 00_states or remove
+		#	create_pop = {
+		#		culture = lacustrine_bantu
+		#		size = 60000
+		#	}
+		#	create_pop = {
+		#		culture = chewa
+		#		size = 37000
+		#	}
+		#	create_pop = {
+		#		culture = sena
+		#		size = 14000
+		#	}
+		#	create_pop = {
+		#		pop_type = slaves
+		#		culture = chewa
+		#		size = 5000
+		#	}
+		#}
 	}
 	s:STATE_SOMALILAND = {
 		region_state:GLD = {
@@ -2767,26 +2767,26 @@
 				size = 10000
 			}
 		}
-		region_state:KSN = {
-			create_pop = {
-				culture = lunda
-				size = 40000
-			}
-			create_pop = {
-				culture = ovimbundu
-				size = 111196
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lunda
-				size = 4000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = ovimbundu
-				size = 9000
-			}
-		}
+		#region_state:KSN = { # TODO: add KSN in 00_states or remove
+		#	create_pop = {
+		#		culture = lunda
+		#		size = 40000
+		#	}
+		#	create_pop = {
+		#		culture = ovimbundu
+		#		size = 111196
+		#	}
+		#	create_pop = {
+		#		pop_type = slaves
+		#		culture = lunda
+		#		size = 4000
+		#	}
+		#	create_pop = {
+		#		pop_type = slaves
+		#		culture = ovimbundu
+		#		size = 9000
+		#	}
+		#}
 		region_state:LZO = {
 			create_pop = {
 				culture = kavango_bantu
@@ -3442,33 +3442,32 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:GZA = {
+        region_state:GZA = {
 			create_pop = {
 				culture = nguni
-<<<<<<< HEAD
-				size = 330004
+				size = 267043
 			}
 			create_pop = {
 				culture = shona
-				size = 230000
+				size = 156000
 			}
 			create_pop = {
 				culture = tonga
-				size = 300000
+				size = 323000
 			}
 		}
 		region_state:POR = {
 			create_pop = {
 				culture = nguni
-				size = 3800
+				size = 66761
 			}
 			create_pop = {
 				culture = shona
-				size = 30000
+				size = 104000
 			}
 			create_pop = {
 				culture = tonga
-				size = 80000
+				size = 57000
 			}
 		}
 	}
@@ -3494,31 +3493,6 @@
 				pop_type = slaves
 				culture = sotho
 				size = 7900
-=======
-				size = 66761
-			}
-			create_pop = {
-				culture = shona
-				size = 104000
-			}
-			create_pop = {
-				culture = tonga
-				size = 57000
-			}
-		}
-		region_state:GZA = {
-			create_pop = {
-				culture = nguni
-				size = 267043
-			}
-			create_pop = {
-				culture = shona
-				size = 156000
-			}
-			create_pop = {
-				culture = tonga
-				size = 323000
->>>>>>> 130127c1 (V1.3)
 			}
 		}
 	}

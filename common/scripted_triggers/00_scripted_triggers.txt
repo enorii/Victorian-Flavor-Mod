@@ -438,6 +438,7 @@ state_in_africa = {
 		text = state_in_africa_desc
 		OR = {
 			region = sr:region_nile_basin
+			region = sr:region_ethiopia
 			region = sr:region_north_africa
 			region = sr:region_senegal
 			region = sr:region_niger
